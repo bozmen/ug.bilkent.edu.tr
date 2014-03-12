@@ -1,3 +1,7 @@
+body{
+	overflow: scroll;
+}
+
 .container{
 	margin: auto;
 	max-width: 720px;
@@ -27,7 +31,7 @@
 	height: 246px;
 	width: 246px;
 	border-radius: 125px;
-	border: 2px solid gray;
+	border: 1px solid black;
 }
 
 #quote{
@@ -69,6 +73,7 @@
 
 #right-personal a:hover{
 	font-weight: bold;
+	font-color: black;
 }
 
 #right-personal img{
@@ -77,7 +82,18 @@
 	vertical-align: middle;
 }
 
+#qualifications, #education{
+	display: inline-block;
+	float:left;
+}
 
+#qualifications{
+	width: 250px;
+}
+
+#education{
+	width: 470px;
+}
 
 
 
