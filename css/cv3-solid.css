@@ -1,5 +1,6 @@
 body{
 	overflow: scroll;
+	color: #444444;
 }
 
 .container{
@@ -13,11 +14,14 @@ body{
 }
 
 #second{
-	height: 128px;
+	height: 129px;
+	border-bottom: 1px solid #dddddd;
 }
 
 #third{
 	height:400px;
+	margin-top: 2px;
+	background: red;
 }
 
 #picture{
@@ -31,7 +35,7 @@ body{
 	height: 246px;
 	width: 246px;
 	border-radius: 125px;
-	border: 1px solid black;
+	border: 1px solid #dddddd;
 }
 
 #quote{
@@ -48,17 +52,18 @@ body{
 	margin-right: 10px;
 	display: inline-block;
 	float: left;
-	border-right: 1px solid gray;
+	border-right: 1px solid #dddddd;
 }
 
 #left-personal td{
 	padding: 14.5px  5px 14.5px 5px ;
-	font-size: 13px;
-	font-weight: bold;
+	font-size: 14px;
 }
 
 #right-personal{
 	width: 470px;
+	height: 129px;
+	padding: 5px;
 }
 
 #right-personal td{
@@ -88,11 +93,16 @@ body{
 }
 
 #qualifications{
-	width: 250px;
+	width: 240px;
+	background: green;
+	height: inherit;
 }
 
 #education{
-	width: 470px;
+	width: 479px;
+	background: yellow;
+	border-left: 1px solid #dddddd;
+	height: inherit;
 }
 
 
