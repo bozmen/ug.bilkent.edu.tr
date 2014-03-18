@@ -4,6 +4,17 @@ body{
 	font-size: 12px;
 }
 
+li{
+	margin-left: 15px;
+	font-size: 16px;
+	text-align: right;
+}
+
+li:first-child{
+	margin-left: 0px;
+	text-align: middle;
+}
+
 .container{
 	margin: auto;
 	max-width: 720px;
@@ -19,7 +30,7 @@ body{
 }
 
 #third{
-	height:400px;
+	height: 360px;
 	margin-top: 2px;
 }
 
@@ -95,6 +106,7 @@ body{
 #qualifications{
 	width: 239px;
 	height: inherit;
+	margin-top: 10px;
 }
 
 #education{
