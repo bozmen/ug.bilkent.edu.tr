@@ -1,6 +1,7 @@
 body{
 	overflow: scroll;
 	color: #444444;
+	font-size: 12px;
 }
 
 .container{
@@ -15,13 +16,11 @@ body{
 
 #second{
 	height: 129px;
-	border-bottom: 1px solid #dddddd;
 }
 
 #third{
 	height:400px;
 	margin-top: 2px;
-	background: red;
 }
 
 #picture{
@@ -49,7 +48,7 @@ body{
 
 #left-personal{
 	width: 240px;
-	margin-right: 10px;
+	margin-right: 8px;
 	display: inline-block;
 	float: left;
 	border-right: 1px solid #dddddd;
@@ -77,7 +76,7 @@ body{
 }
 
 #right-personal a:hover{
-	font-weight: bold;
+	color: #3366aa;
 	font-color: black;
 }
 
@@ -85,6 +84,7 @@ body{
 	height:32px;
 	width:32px;
 	vertical-align: middle;
+	margin-right: 10px;
 }
 
 #qualifications, #education{
@@ -93,16 +93,39 @@ body{
 }
 
 #qualifications{
-	width: 240px;
-	background: green;
+	width: 239px;
 	height: inherit;
 }
 
 #education{
-	width: 479px;
-	background: yellow;
-	border-left: 1px solid #dddddd;
+	width: 460px;
 	height: inherit;
+	padding: 10px;
+	text-align: center;
+}
+
+#education td:first-child{
+	font-weight: bold;
+}
+
+#education td{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 3px;
+	padding-right: 3px;
+	border-top: 1px solid #dddddd;
+	border-bottom: 1px solid #dddddd;
+}
+
+#university{
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+#education p{
+	font-size: 17px;
+	color: #333333;
+	margin-bottom: 4px;
 }
 
 
