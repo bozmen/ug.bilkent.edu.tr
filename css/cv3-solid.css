@@ -139,10 +139,29 @@ li:first-child{
 	margin-bottom: 4px;
 	border: 1px solid #dddddd;
 	background: #dfdfdf;
+	border-radius: 5px;
+}
+
+#education p:hover{
+	background: #3366aa;
 }
 
 #university, #professional{
 	display:none;
+}
+
+#title{
+	font-size: 17px; 
+	height: 32px; 
+	padding-top: 10px; 
+	border-radius: 5px;
+	text-align: center; 
+	background: #dfdfdf; 
+	margin-right: 6px;
+}
+
+#title:hover{
+	background: #3366aa;
 }
 
 
