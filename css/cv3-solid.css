@@ -118,7 +118,6 @@ body{
 }
 
 #university{
-	margin-top: 25px;
 	margin-bottom: 25px;
 }
 
@@ -126,7 +125,12 @@ body{
 	font-size: 17px;
 	color: #333333;
 	margin-bottom: 4px;
+	border: 1px solid #dddddd;
+	background: #dfdfdf;
 }
 
+#university, #professional{
+	display:none;
+}
 
 
