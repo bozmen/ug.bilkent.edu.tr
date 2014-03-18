@@ -30,7 +30,7 @@ li:first-child{
 }
 
 #third{
-	height: 360px;
+	height: 370px;
 	margin-top: 2px;
 }
 
@@ -146,10 +146,6 @@ li:first-child{
 	background: #3366aa;
 }
 
-#university, #professional{
-	display:none;
-}
-
 #title{
 	font-size: 17px; 
 	height: 32px; 
@@ -161,7 +157,42 @@ li:first-child{
 }
 
 #title:hover{
-	background: #3366aa;
+	background: #3366aa; 	
 }
 
+.can{
+	height: 120px;
+	width: 114px;
+	display: inline-block;
+	float: left;
+	margin-right: 8px;
+	line-height: inherit;
+	vertical-align: middle;
+	text-align: right;
+	font-size: 16px;
+}
+
+.these{
+	height: 120px;
+	width: 114px;
+	display: inline-block;
+	text-align: left;
+}
+
+.list{
+	display: block;
+	height: auto;
+	font-size: 20px;
+	top: 50%;
+	margin-top: -25px;
+	position: relative;
+}
+
+.slideable{
+	display: none;
+}
+
+#qualifications .slideable > div{
+	border-bottom: 1px solid #dddddd;
+}
 
