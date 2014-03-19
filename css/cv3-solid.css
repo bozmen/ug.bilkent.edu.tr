@@ -49,12 +49,29 @@ li:first-child{
 }
 
 #quote{
-	width: 390px;
-	height: 170px;
+	width: 470px;
+	height: 240px;
 	float: left;
-	padding: 40px;
-	text-align: center;
 	font-size: 26px;
+}
+
+#qt{
+	text-align: center;
+	width: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	height: auto;
+}
+
+#belongs-to{
+	text-align: right;
+	height: auto;
+	margin-top: 10px;
+}
+
+#aligner{
+	position: relative;
+	top: 50%;
 }
 
 #left-personal{
@@ -79,6 +96,7 @@ li:first-child{
 #right-personal td{
 	width: 230px;
 	padding: 5px;
+	overflow: hidden;
 }
 
 #right-personal a{
@@ -96,6 +114,16 @@ li:first-child{
 	width:32px;
 	vertical-align: middle;
 	margin-right: 10px;
+}
+
+.slide-left>span{
+	right: 170px;
+	position: relative;
+}
+
+.slide-left{
+	display: inline-block;
+	overflow: hidden;
 }
 
 #qualifications, #education{
