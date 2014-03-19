@@ -144,6 +144,10 @@ li:first-child{
 	text-align: center;
 }
 
+#professional{
+	font-size: 16px;
+}
+
 #education td:first-child{
 	font-weight: bold;
 }
@@ -159,6 +163,7 @@ li:first-child{
 
 #university{
 	margin-bottom: 25px;
+	font-size:16px;
 }
 
 #education p{
@@ -189,7 +194,7 @@ li:first-child{
 }
 
 .can{
-	height: 120px;
+	height: 124px;
 	width: 114px;
 	display: inline-block;
 	float: left;
@@ -201,7 +206,7 @@ li:first-child{
 }
 
 .these{
-	height: 120px;
+	height: 124px;
 	width: 114px;
 	display: inline-block;
 	text-align: left;
