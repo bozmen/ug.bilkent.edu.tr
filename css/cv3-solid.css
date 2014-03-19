@@ -146,6 +146,7 @@ li:first-child{
 
 #professional{
 	font-size: 16px;
+	margin-bottom: 15px;
 }
 
 #education td:first-child{
@@ -194,7 +195,7 @@ li:first-child{
 }
 
 .can{
-	height: 124px;
+	height: 125px;
 	width: 114px;
 	display: inline-block;
 	float: left;
@@ -206,7 +207,7 @@ li:first-child{
 }
 
 .these{
-	height: 124px;
+	height: 125px;
 	width: 114px;
 	display: inline-block;
 	text-align: left;
@@ -229,3 +230,6 @@ li:first-child{
 	border-bottom: 1px solid #dddddd;
 }
 
+#qualifications{
+	margin-bottom: 15px;
+}
